@@ -19,7 +19,7 @@ for (int i = 0; i < n; i++) {
 ...
 ```
 ### Vòng lập for-each
-Trong `C++11`, người ta đã giới thiệu một cú pháp mới cho vòng lập `for` chính là cú pháp vòng lập `for-each`. ta có thể dùng vòng lập `for-each` để viết đoạn code trên một cách gọn gàng và dễ đọc hơn.
+Trong `C++11`, người ta đã giới thiệu một cú pháp mới cho vòng lập `for` chính là cú pháp vòng lập `for-each`. Ta có thể dùng vòng lập `for-each` để viết đoạn code trên một cách gọn gàng và dễ đọc hơn.
 ```cpp
 /*
 * Cú pháp của vòng lập for-each
