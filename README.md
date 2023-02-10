@@ -34,6 +34,12 @@ for (int i : arr) {
 }
 ...
 ```
+Cú pháp này cũng tương tự với cú pháp vòng lập `for` trong Python
+```py
+arr = [1, 2, 3, 4, 5]
+for i in arr:
+    print(i, end=' ')
+```
 ### Vòng lập for-each với từ khóa auto
 Vì mọi phần tử trong một mảng đều có cùng một kiểu nên ta có thể dùng từ khóa `auto` để C++ tự quyết định tên kiểu cho phần tử đang xét hiện tại.
 ```cpp
