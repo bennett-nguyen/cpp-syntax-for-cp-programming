@@ -109,6 +109,16 @@ for (auto &i : arr) {
 }
 ...
 ```
+Ta cũng có thể dùng cú pháp truyền tham chiếu để nhập dữ liệu.
+```cpp
+...
+const int n = 5;
+int arr[n];
+for (auto &x : arr) {
+    cin >> x;
+}
+...
+```
 Nếu bạn chỉ muốn truy cập phần tử trong mảng mà không làm thay đổi giá trị của nó thì ta nên thêm từ khóa `const` trước tên kiểu.
 ```cpp
 ...
